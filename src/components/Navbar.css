@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+}
+
+.nav--container {
+    background-color: red;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav--globe {
+    border: solid;
+    border-color: white;
+    border-width: 12px;
+    border-radius: 50%
+}
+
+.nav--text {
+    font-size: 15px;
+    padding-left: 5px;
+    color: white;
+}

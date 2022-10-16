@@ -1,0 +1,13 @@
+.bold {
+    font-weight: bold;
+}
+
+.gray {
+    color: rgb(120, 120, 120)
+}
+
+.main-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

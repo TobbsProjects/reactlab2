@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+}
+
+.card--container {
+    display: flex;
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    justify-self: center;
+}
+
+.card--main-image {
+    width: 125px;
+    height: 168px;
+    border-radius: 15px;
+}
+
+.card--text-container {
+    margin-left: 25px;
+    display: grid;
+    grid-template-areas: 
+    "location link .  ."
+    "title title . ."
+    "dates dates . ."
+    "description description description description";
+    align-items: center;
+}
+
+.card--location {
+    grid-area: location;
+    font-size: 11px;
+}
+
+.card--google-link {
+    grid-area: link;
+    font-size: 11px;
+    padding-left: 10px;
+
+}
+
+.card--title {
+    grid-area: title;
+    padding-bottom: 25px;
+}
+
+.card--dates {
+    grid-area: dates;
+    font-size: 11px;
+}
+
+.card--description {
+    grid-area: description;
+    font-size: 11px;
+}
